@@ -1,0 +1,15 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Full-stack personal portfolio: static frontend + Node/Express contact API with email notifications",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "mongoose": "^8.5.0",
+    "nodemailer": "^6.9.14"
+  },
+  "engines": { "node": ">=18" }
+}
