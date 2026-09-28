@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://YOUR-LIVE-URL/sitemap.xml
